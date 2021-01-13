@@ -1,19 +1,19 @@
 package ru.stqa.pft.addressbook;
 
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.*;
+import static org.testng.Assert.fail;
 
-import static org.testng.Assert.*;
-
-import org.openqa.selenium.*;
-
-public class TestCreatGroup {
-    private WebDriver driver;
+public class TestBase {
+    protected WebDriver driver;
+    private StringBuffer verificationErrors = new StringBuffer();
     private String baseUrl;
     private boolean acceptNextAlert = true;
-    private StringBuffer verificationErrors = new StringBuffer();
 
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
@@ -34,24 +34,15 @@ public class TestCreatGroup {
         driver.findElement(By.xpath("//input[@value='Login']")).click();
     }
 
-    @Test
-    public void testCreatGroupMethod() throws Exception {
-        gotoGroupPage();
-        initGroupCreation();
-        fillGroupForm(new GroupData("test1", "test1", "test1"));
-        submitGroupCreation();
-        returnToGroupPage();
-    }
-
-    private void returnToGroupPage() {
+    protected void returnToGroupPage() {
         driver.findElement(By.linkText("group page")).click();
     }
 
-    private void submitGroupCreation() {
+    protected void submitGroupCreation() {
         driver.findElement(By.name("submit")).click();
     }
 
-    private void fillGroupForm(GroupData groupData) {
+    protected void fillGroupForm(GroupData groupData) {
         driver.findElement(By.name("group_name")).click();
         driver.findElement(By.name("group_name")).clear();
         driver.findElement(By.name("group_name")).sendKeys(groupData.getName());
@@ -63,11 +54,11 @@ public class TestCreatGroup {
         driver.findElement(By.name("group_footer")).sendKeys(groupData.getFooter());
     }
 
-    private void initGroupCreation() {
+    protected void initGroupCreation() {
         driver.findElement(By.name("new")).click();
     }
 
-    private void gotoGroupPage() {
+    protected void gotoGroupPage() {
         driver.findElement(By.linkText("groups")).click();
     }
 
@@ -80,36 +71,11 @@ public class TestCreatGroup {
         }
     }
 
-    private boolean isElementPresent(By by) {
-        try {
-            driver.findElement(by);
-            return true;
-        } catch (NoSuchElementException e) {
-            return false;
-        }
+    protected void deleteSelectedGroup() {
+        driver.findElement(By.name("delete")).click();
     }
 
-    private boolean isAlertPresent() {
-        try {
-            driver.switchTo().alert();
-            return true;
-        } catch (NoAlertPresentException e) {
-            return false;
-        }
-    }
-
-    private String closeAlertAndGetItsText() {
-        try {
-            Alert alert = driver.switchTo().alert();
-            String alertText = alert.getText();
-            if (acceptNextAlert) {
-                alert.accept();
-            } else {
-                alert.dismiss();
-            }
-            return alertText;
-        } finally {
-            acceptNextAlert = true;
-        }
+    protected void selectGroup() {
+        driver.findElement(By.name("selected[]")).click();
     }
 }

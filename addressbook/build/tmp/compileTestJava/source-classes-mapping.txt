@@ -1,10 +1,12 @@
 ru/stqa/pft/addressbook/Two.java
  ru.stqa.pft.addressbook.Two
-ru/stqa/pft/addressbook/GroupData.java
- ru.stqa.pft.addressbook.GroupData
-ru/stqa/pft/addressbook/TestBase.java
- ru.stqa.pft.addressbook.TestBase
-ru/stqa/pft/addressbook/TestDeleteGroup.java
- ru.stqa.pft.addressbook.TestDeleteGroup
-ru/stqa/pft/addressbook/TestCreateGroup.java
- ru.stqa.pft.addressbook.TestCreateGroup
+ru/stqa/pft/addressbook/test/TestCreateGroup.java
+ ru.stqa.pft.addressbook.test.TestCreateGroup
+ru/stqa/pft/addressbook/test/TestBase.java
+ ru.stqa.pft.addressbook.test.TestBase
+ru/stqa/pft/addressbook/model/GroupData.java
+ ru.stqa.pft.addressbook.model.GroupData
+ru/stqa/pft/addressbook/test/TestDeleteGroup.java
+ ru.stqa.pft.addressbook.test.TestDeleteGroup
+ru/stqa/pft/addressbook/appmanager/ApplicationManager.java
+ ru.stqa.pft.addressbook.appmanager.ApplicationManager

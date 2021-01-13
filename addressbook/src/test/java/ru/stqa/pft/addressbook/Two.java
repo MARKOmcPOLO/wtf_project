@@ -1,3 +1,4 @@
+package ru.stqa.pft.addressbook;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
@@ -34,5 +35,5 @@ public class Two {
     public void tearDown() throws Exception {
         driver.quit();
     }
-    
+
 }

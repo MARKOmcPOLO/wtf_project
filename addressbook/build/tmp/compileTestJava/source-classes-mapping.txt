@@ -1,4 +1,6 @@
-TestCreatGroup.java
- TestCreatGroup
-Two.java
- Two
+ru/stqa/pft/addressbook/Two.java
+ ru.stqa.pft.addressbook.Two
+ru/stqa/pft/addressbook/TestCreatGroup.java
+ ru.stqa.pft.addressbook.TestCreatGroup
+ru/stqa/pft/addressbook/GroupData.java
+ ru.stqa.pft.addressbook.GroupData

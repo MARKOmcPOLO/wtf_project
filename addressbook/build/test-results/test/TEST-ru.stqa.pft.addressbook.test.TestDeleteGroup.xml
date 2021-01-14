@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.addressbook.test.TestDeleteGroup" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-14T08:39:50" hostname="USER-735F35KOPJ" time="0.335">
+<testsuite name="ru.stqa.pft.addressbook.test.TestDeleteGroup" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-14T11:47:56" hostname="USER-735F35KOPJ" time="0.314">
   <properties/>
-  <testcase name="testDeleteGroupMethod" classname="ru.stqa.pft.addressbook.test.TestDeleteGroup" time="0.335"/>
+  <testcase name="testDeleteGroupMethod" classname="ru.stqa.pft.addressbook.test.TestDeleteGroup" time="0.314"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 41448
+  <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 10013
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-янв. 14, 2021 2:39:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+янв. 14, 2021 5:47:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

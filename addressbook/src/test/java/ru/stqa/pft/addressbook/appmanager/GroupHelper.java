@@ -2,6 +2,7 @@ package ru.stqa.pft.addressbook.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
 import ru.stqa.pft.addressbook.model.GroupData;
 
 public class GroupHelper extends HelperBase {
@@ -35,4 +36,13 @@ public class GroupHelper extends HelperBase {
     public void selectGroup() {
         click(By.name("selected[]"));
     }
+
+    public void initGroupModify() {
+        click(By.name("edit"));
+    }
+
+    public void submitGroupModify() {
+        click(By.name("update"));
+    }
+
 }

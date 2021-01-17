@@ -4,3 +4,5 @@ MyFirstProgram.java
  MyFirstProgram
 Equation.java
  Equation
+Equality.java
+ Equality

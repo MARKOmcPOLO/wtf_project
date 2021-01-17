@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EquationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-01-17T12:04:04" hostname="USER-735F35KOPJ" time="0.009">
+<testsuite name="EquationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-01-17T12:25:44" hostname="USER-735F35KOPJ" time="0.016">
   <properties/>
-  <testcase name="test0" classname="EquationTest" time="0.005"/>
-  <testcase name="test1" classname="EquationTest" time="0.001"/>
+  <testcase name="test0" classname="EquationTest" time="0.0"/>
+  <testcase name="test1" classname="EquationTest" time="0.0"/>
   <testcase name="test2" classname="EquationTest" time="0.0"/>
+  <testcase name="testConstant" classname="EquationTest" time="0.0"/>
+  <testcase name="testLiner" classname="EquationTest" time="0.0"/>
+  <testcase name="testZero" classname="EquationTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

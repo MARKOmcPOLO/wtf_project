@@ -2,3 +2,5 @@ Hexagon.java
  Hexagon
 MyFirstProgram.java
  MyFirstProgram
+Equation.java
+ Equation

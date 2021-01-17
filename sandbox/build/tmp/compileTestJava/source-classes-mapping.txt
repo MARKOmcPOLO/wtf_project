@@ -1,2 +1,4 @@
 HexagonTest.java
  HexagonTest
+EquationTest.java
+ EquationTest

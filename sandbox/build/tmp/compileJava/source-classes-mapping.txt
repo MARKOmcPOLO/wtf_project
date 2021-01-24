@@ -6,3 +6,7 @@ Equation.java
  Equation
 Equality.java
  Equality
+ArrayTask.java
+ ArrayTask
+ListTask.java
+ ListTask

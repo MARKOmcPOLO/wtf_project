@@ -1,12 +1,14 @@
-Hexagon.java
- Hexagon
-MyFirstProgram.java
- MyFirstProgram
 Equation.java
  Equation
 Equality.java
  Equality
+Hexagon.java
+ Hexagon
+MyFirstProgram.java
+ MyFirstProgram
 ArrayTask.java
  ArrayTask
 ListTask.java
  ListTask
+TaskOne.java
+ TaskOne

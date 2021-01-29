@@ -4,9 +4,9 @@ import org.testng.annotations.Test;
 
 public class ContactDeleteTest extends TestBase{
 
-    @Test
+    @Test (enabled = false)
     public void contactDeleteTestMethod(){
-        app.getNavigationHelper().gotoHomePage();
+        app.goTo().gotoHomePage();
         app.getContactHelper().selectContact();
         app.getContactHelper().deleteSelectedContact();
         app.getContactHelper().accept();

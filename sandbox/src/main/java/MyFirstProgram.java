@@ -6,4 +6,8 @@ public class MyFirstProgram {
 		System.out.println("S HEXAGON = " + hex.squareHex());
 
 	}
+
+
+	
+
 }

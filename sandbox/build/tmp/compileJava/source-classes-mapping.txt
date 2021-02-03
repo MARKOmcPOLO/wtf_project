@@ -12,3 +12,7 @@ ListTask.java
  ListTask
 TaskOne.java
  TaskOne
+GZipExample.java
+ GZipExample
+MaxList.java
+ MaxList

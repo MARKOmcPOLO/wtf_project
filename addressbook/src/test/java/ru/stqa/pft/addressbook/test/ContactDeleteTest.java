@@ -6,9 +6,9 @@ public class ContactDeleteTest extends TestBase{
 
     @Test (enabled = false)
     public void contactDeleteTestMethod(){
-        app.goTo().gotoHomePage();
-        app.getContactHelper().selectContact();
-        app.getContactHelper().deleteSelectedContact();
-        app.getContactHelper().accept();
+        app.goTo().homePage();
+        app.contact().selectContact();
+        app.contact().deleteSelectedContact();
+        app.contact().accept();
     }
 }

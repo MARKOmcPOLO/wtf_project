@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.addressbook.test.TestDeleteGroup" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-29T08:29:28" hostname="USER-735F35KOPJ" time="0.514">
-  <properties/>
-  <testcase name="testDeleteGroupMethod" classname="ru.stqa.pft.addressbook.test.TestDeleteGroup" time="0.514"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

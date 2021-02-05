@@ -8,6 +8,7 @@ public class ContactData {
     private String middleName;
     private String lastName;
     private String group;
+    private File photo;
 
     public File getPhoto() {
         return photo;
@@ -17,14 +18,13 @@ public class ContactData {
         this.photo = photo;
     }
 
-    private File photo;
-
     public ContactData(String firstName, String middleName, String lastName, String group, File photo){
 
         this.firstName = firstName;
         this.middleName = middleName;
         this.lastName = lastName;
         this.group = group;
+        this.photo = photo;
     }
 
     public String getFirstName() {

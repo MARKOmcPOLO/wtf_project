@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.addressbook.test.TestModifyGroup" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-05T08:38:57" hostname="USER-735F35KOPJ" time="1.589">
+  <properties/>
+  <testcase name="testModifyGroupMethod" classname="ru.stqa.pft.addressbook.test.TestModifyGroup" time="1.589"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

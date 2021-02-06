@@ -12,10 +12,21 @@ ru/stqa/pft/addressbook/appmanager/HelperBase.java
  ru.stqa.pft.addressbook.appmanager.HelperBase
 ru/stqa/pft/addressbook/model/ContactData.java
  ru.stqa.pft.addressbook.model.ContactData
-ru/stqa/pft/addressbook/appmanager/ApplicationManager.java
- ru.stqa.pft.addressbook.appmanager.ApplicationManager
+ru/stqa/pft/addressbook/generators/GroupDataGenerator.java
+ ru.stqa.pft.addressbook.generators.GroupDataGenerator
 ru/stqa/pft/addressbook/appmanager/GroupHelper.java
  ru.stqa.pft.addressbook.appmanager.GroupHelper
+ru/stqa/pft/addressbook/model/Groups.java
+ ru.stqa.pft.addressbook.model.Groups
+ru/stqa/pft/addressbook/model/GroupData.java
+ ru.stqa.pft.addressbook.model.GroupData
+ru/stqa/pft/addressbook/appmanager/ApplicationManager.java
+ ru.stqa.pft.addressbook.appmanager.ApplicationManager
+ru/stqa/pft/addressbook/test/ContactModifyTest.java
+ ru.stqa.pft.addressbook.test.ContactModifyTest
+ru/stqa/pft/addressbook/test/TestCreateGroup.java
+ ru.stqa.pft.addressbook.test.TestCreateGroup
+ ru.stqa.pft.addressbook.test.TestCreateGroup$1
 ru/stqa/pft/addressbook/test/TestBase.java
  ru.stqa.pft.addressbook.test.TestBase
 ru/stqa/pft/addressbook/test/ContactPhoneTest.java
@@ -24,18 +35,7 @@ ru/stqa/pft/addressbook/test/TestDeleteGroup.java
  ru.stqa.pft.addressbook.test.TestDeleteGroup
 ru/stqa/pft/addressbook/test/ContactDeleteTest.java
  ru.stqa.pft.addressbook.test.ContactDeleteTest
-ru/stqa/pft/addressbook/model/Groups.java
- ru.stqa.pft.addressbook.model.Groups
 ru/stqa/pft/addressbook/test/TestModifyGroup.java
  ru.stqa.pft.addressbook.test.TestModifyGroup
-ru/stqa/pft/addressbook/test/ContactModifyTest.java
- ru.stqa.pft.addressbook.test.ContactModifyTest
-ru/stqa/pft/addressbook/model/GroupData.java
- ru.stqa.pft.addressbook.model.GroupData
 ru/stqa/pft/addressbook/test/ContactAddTest.java
  ru.stqa.pft.addressbook.test.ContactAddTest
-ru/stqa/pft/addressbook/test/TestCreateGroup.java
- ru.stqa.pft.addressbook.test.TestCreateGroup
- ru.stqa.pft.addressbook.test.TestCreateGroup$1
-ru/stqa/pft/addressbook/generators/GroupDataGenerator.java
- ru.stqa.pft.addressbook.generators.GroupDataGenerator

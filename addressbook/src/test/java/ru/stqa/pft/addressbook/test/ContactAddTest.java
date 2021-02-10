@@ -15,7 +15,7 @@ public class ContactAddTest extends TestBase {
                 "UserFirstName",
                 "UserMiddleName",
                 "UserLastName",
-                "test1", photo), true);
+                "test1").withPhoto(photo), true);
         app.contact().submitContactAdd();
         app.contact().returnToHomePage();
     }

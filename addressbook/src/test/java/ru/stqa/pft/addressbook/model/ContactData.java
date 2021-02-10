@@ -1,30 +1,48 @@
 package ru.stqa.pft.addressbook.model;
 
+import org.hibernate.annotations.Type;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.persistence.Transient;
 import java.io.File;
 
+@Entity
+@Table(name = "addressbook")
 public class ContactData {
 
+    @Column(name = "firstname")
     private String firstName;
+
+    @Column(name = "middlename")
     private String middleName;
+
+    @Column(name = "lastname")
     private String lastName;
+
+    @Transient
     private String group;
-    private File photo;
+
+    @Column(name = "photo")
+    @Type(type = "text")
+    private String photo;
 
     public File getPhoto() {
-        return photo;
+        return new File(photo);
     }
 
-    public void setPhoto(File photo) {
-        this.photo = photo;
+    public ContactData withPhoto(File photo) {
+        this.photo = photo.getPath();
+        return this;
     }
 
-    public ContactData(String firstName, String middleName, String lastName, String group, File photo){
+    public ContactData(String firstName, String middleName, String lastName, String group) {
 
         this.firstName = firstName;
         this.middleName = middleName;
         this.lastName = lastName;
         this.group = group;
-        this.photo = photo;
     }
 
     public String getFirstName() {
@@ -41,5 +59,13 @@ public class ContactData {
 
     public String getGroup() {
         return group;
+    }
+
+    @Override
+    public String toString() {
+        return "ContactData{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
     }
 }

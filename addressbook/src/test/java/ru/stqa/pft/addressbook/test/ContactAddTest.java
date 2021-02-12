@@ -11,11 +11,9 @@ public class ContactAddTest extends TestBase {
     public void contactAddTestMethod() {
         app.goTo().gotoContactPage();
         File photo = new File("src/test/resources/stru.png");
-        app.contact().fillContactForm(new ContactData(
-                "UserFirstName",
-                "UserMiddleName",
-                "UserLastName",
-                "test1").withPhoto(photo), true);
+        app.contact().fillContactForm(new ContactData()
+                .withFirstName("UserFirstName").withMiddleName("UserMiddleName")
+                .withLastName("UserLastName").withGroup("test1").withPhoto(photo), true);
         app.contact().submitContactAdd();
         app.contact().returnToHomePage();
     }

@@ -35,6 +35,7 @@ public class GroupData {
     @Type(type = "text")
     private String footer;
 
+    //Getters
     public int getId() {
         return id;
     }
@@ -51,6 +52,7 @@ public class GroupData {
         return footer;
     }
 
+    //Setters
     public GroupData withId(int id) {
         this.id = id;
         return this;
